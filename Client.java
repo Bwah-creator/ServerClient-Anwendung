@@ -16,7 +16,7 @@ public abstract class Client {
 			String leserS = leser.readLine();
 		
 			System.out.println(leserS);
-			System.out.println("Bitte Groesse und Farbe getrennt mit : eingeben. Beispiel eingabe = TSHIRT:Groesse:Farbe");
+		
 			Scanner eingabeGF = new Scanner(System.in);
 			String gF = eingabeGF.nextLine();
 			
