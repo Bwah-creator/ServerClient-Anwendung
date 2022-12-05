@@ -20,7 +20,8 @@ public abstract class Server {
 		
 		if(strc.equals("Anmeldung")){
 				boolean Angemeldet = true;
-				raus.println("Willkommen Waehlen Sie eine Groesse und eine Farbe für Ihr T-Shirt. Sie koennen sich jederzeit durch: Abmeldung : abmelden");
+				raus.println("Willkommen Waehlen Sie eine Groesse und eine Farbe für Ihr T-Shirt. Sie koennen sich jederzeit durch: Abmeldung : abmelden"
+				+"Bitte Groesse und Farbe getrennt mit : eingeben. Beispiel eingabe = TSHIRT:Groesse:Farbe");
 				while(true){
 					DataInputStream aRein = new DataInputStream(client.getInputStream());
 					String config = (String)aRein.readUTF();
@@ -69,4 +70,3 @@ public abstract class Server {
 	
 	
 }
-
