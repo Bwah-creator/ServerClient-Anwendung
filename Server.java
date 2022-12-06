@@ -42,7 +42,7 @@ public abstract class Server {
 						System.exit(0);
 						}
 					else if(bestätigung.equals("J")){
-						raus.println("Danke, ihre bestellung wurde bestaetigt");
+						raus.println("Danke, ihre Bestellung wurde bestaetigt");
 						System.out.println("Bestellung bestätigt");
 						System.exit(0);
 						
